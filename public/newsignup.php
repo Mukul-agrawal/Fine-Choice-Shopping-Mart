@@ -149,7 +149,7 @@
 	<div class="model">
 	<div class="loginbox">
 		<h1 style="font-family: 'Bree Serif', serif;">SIGNUP HERE</h1>
-		<form action="newlogin1.php" method="post" enctype="multipart/form-data">
+		<form action="" method="post" enctype="multipart/form-data">
 			<?php sign_shop(); ?>
 		<form ... onsubmit="return checkForm(this);">
 			<p>Username<input type="text" name="usrnm" placeholder="Enter Username" class="high" required></p>
