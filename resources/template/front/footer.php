@@ -16,7 +16,7 @@
                     Supporting small business
                    <br>Out For Delivery<br>
                     Working at Home town grocers
-                    <a href="pages/aboutus.php">Read More</a>
+                    <a href="aboutus.php">Read More</a>
                 </p>
             </div>
         </div>
