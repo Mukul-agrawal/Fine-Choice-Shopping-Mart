@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include(TEMPLATE_FRONT . DS . "headers.php") ?>
+    <?php include(TEMPLATE_FRONT . DS . "header.php") ?>
     <?php include(TEMPLATE_FRONT . DS . "slider.php") ?>
     <h1 id=line-1>SHOP FOR HEALTHY FOODS</h1>
     <div class="products">
@@ -75,7 +75,7 @@
     <!--<?php include(TEMPLATE_FRONT . DS . "categories.php") ?>-->
 
   <?php get_categories(); ?>  
-<?php include(TEMPLATE_FRONT . DS . "footers.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "footer.php") ?>
 
 <script src ="password.js"></script>
 </body>

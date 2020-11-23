@@ -17,7 +17,7 @@ Fine-Choice-Shopping-Mart
 </head> 
 <body>
 
-<?php include(TEMPLATE_FRONT . DS . "headers.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "header.php") ?>
 <?php
 if(isset($_GET['id'])){
     $query = query("SELECT * FROM categories WHERE cat_id = " . escape_string($_GET['id']) . " ");
