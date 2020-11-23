@@ -217,7 +217,7 @@ function send_message(){
 
                 if(isset($_POST['submit'])){
                 
-                    $to = "kshitij.gupta_bca18@gla.ac.in";
+                    $to = "krishna.gupta_cs18@gla.ac.in";
                     $from_name = $_POST['name'];
                     $subject = $_POST['subject'];
                     $email = $_POST['email'];

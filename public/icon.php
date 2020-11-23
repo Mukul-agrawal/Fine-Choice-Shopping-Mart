@@ -59,7 +59,7 @@
   border: 2px solid dodgerblue;
 }
 
-/* Set a style for all buttons */
+/* Set a style for all buttons
 button {
   background-color: dodgerblue;
   color: white;
@@ -79,7 +79,27 @@ button {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
-}
+}*/
+.btn {
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      padding-left: 25px;
+      padding-right: 25px;
+      background-color: #008CBA;
+      color: red;
+      border: none;
+      cursor: pointer;
+      width: 50%;
+      box-sizing: border-box;
+      font-size: 1.5em;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .btn:hover {
+      opacity: 0.8;
+      color:darkgreen;
+    }
 .Goback{
 	background-color: #4CAF50;
 	border:none;
