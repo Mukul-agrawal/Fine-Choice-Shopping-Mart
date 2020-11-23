@@ -48,7 +48,7 @@ if(isset($_GET['id'])){
                     Supporting small business
                    <br>Out For Delivery<br>
                     Working at Fine-Choice-Shopping-Mart
-                    <a href="aboutus.html">Read More</a>
+                    <a href="aboutus.php">Read More</a>
                 </p>
             </div>
         </div>
