@@ -15,7 +15,7 @@ Fine-Choice-Shopping-Mart
 <body>   
 	
 
-<?php include(TEMPLATE_FRONT . DS . "header.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "welhead.php") ?>
     
 <?php include(TEMPLATE_FRONT . DS . "slider.php") ?>
 
