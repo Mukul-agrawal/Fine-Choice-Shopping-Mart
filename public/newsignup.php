@@ -129,14 +129,27 @@
 		background: radial-gradient(90px circle at top center, rgba(238,88,63,.5) 30%, rgba(255,255,255,0));
 	}
 } 
+.Goback{
+	background-color: #4CAF50;
+	border:none;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	margin:4px 2px;
+	cursor:pointer;
+}
 
 	</style>
 </head>
 <body>
+<a href="index.php" class="Goback">Back to home page</a>
 	<div class="model">
 	<div class="loginbox">
 		<h1 style="font-family: 'Bree Serif', serif;">SIGNUP HERE</h1>
-		<form action="newlogin1.php" method="post" enctype="multipart/form-data">
+		<form action="" method="post" enctype="multipart/form-data">
 			<?php sign_shop(); ?>
 		<form ... onsubmit="return checkForm(this);">
 			<p>Username<input type="text" name="usrnm" placeholder="Enter Username" class="high" required></p>
