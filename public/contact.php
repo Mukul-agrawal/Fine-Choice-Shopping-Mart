@@ -77,4 +77,4 @@
             </div>
         </div>
 
-    <?php include(TEMPLATE_FRONT . DS . "footers.php") ?>
+    <?php include(TEMPLATE_FRONT . DS . "footer.php") ?>

@@ -31,7 +31,7 @@
 <link rel='stylesheet' type="text/css" href="customelogin.css"> -->
 
 </head>
-<?php include(TEMPLATE_FRONT . DS . "headers.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "header.php") ?>
 
 <!--Row For Image and Short Description-->
 

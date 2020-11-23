@@ -16,7 +16,7 @@ body{
 float: right;
 margin-right: 10px;
 }
-.iii{
+.bar{
   float: left;
 }
 .navbar ul li{
@@ -42,7 +42,7 @@ display: block;
 text-align: center;
 z-index: 999;
 }
-/* Style the links inside the navigation bar */
+
 .navbar a{
   color: hotpink;
   padding: 10px 20px;
@@ -50,13 +50,11 @@ z-index: 999;
   font-size: 20px;
 }
 
-/* Change the color of links on hover */
+
 .navbar a:hover {
   font-size: 20;
   color: cyan;
-}
-.navbar a:hover{
-background-color:none;
+  background-color:none;
 }
 
 .dropbtn {
@@ -91,58 +89,46 @@ text-decoration: none;
 display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: rgb(228, 85, 85);}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: transparent;}
-/* Slideshow container */
+
 .slideshow-container {
-max-width: 100%;
-padding-left: 5px;
-position: relative;
-margin: 0 auto; 
+  max-width: 100%;
+  height: 450px;
+  position: relative;
+  margin: 0 auto;
 }
 
-
-
-img{
-width: 1340px;
-height:500px;
-object-fit:cover;
+img {
+  width: 100%;
+  margin-top: 15px;
+  height: 500px;
+  object-fit:cover;
 }
-
-
-
-/* Hide the images by default */
 .mySlides {
-display: none;
-position: absolute;
+  display: none;
+  position: absolute;
 }
-
-
-/* Number text (1/3 etc) */
-.numbertext {
-color: #f2f2f2;
-font-size: 12px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
+#dots{
+margin-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-
-/* The dots/bullets/indicators */
 .dot {
-cursor: pointer;
-height: 20px;
-width: 20px;
-margin-top: 485px;
-background-color: #bbb;
-border-radius: 50%;
-display: inline-block;
-transition: background-color 0.6s ease;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-/* Fading animation */
 .fade {
 -webkit-animation-name: fade;
 -webkit-animation-duration: 1.5s;
@@ -159,31 +145,69 @@ to {opacity: 1}
 from {opacity: .4}
 to {opacity: 1}
 }
+#line-1{
+  color: blueviolet;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.asdf2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: lightblue;
+  
+}
+.products {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: lightblue;
+}
+#product-1{
+  direction: 0;
+}
+#product-2{
+  direction: 1;
+}
 .asdf{
   padding-top: 50px;
 }
-.gallery2{
-margin-bottom: 27px;
-border: 1px solid;
-float: left;
-width: 150px;
-height: 150px;
-box-shadow: 0 0 10px 0 black;
+.gallery {
+  width: 350px;
+  height: 250px;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border: 1px solid;
+  float: left;
+  box-shadow: 0 0 10px 0 black;
 }
-.gallery2 img{
+
+.gallery img {
   width: 100%;
   height: 100%;
 }
-.gallery {
-margin-left: 27px;
-margin-bottom: 27px;
-border: 1px solid;
-float: left;
-width: 300px;
-height: 300px;
-box-shadow: 0 0 10px 0 black;
+.product-img{
+  object-fit: cover;
 }
-
+.product-name{
+  margin-top: 0px;
+  text-align: center;
+  color:#DB4437;
+}
+#line-2{
+  color: blueviolet;
+  text-align: center;
+  background-color: lightblue;
+}
 .gallery1 {
 margin: 37px;
 float: left;
@@ -266,17 +290,16 @@ padding-top: 25px;
 text-align: center; 
 font-size: 18px;
 }
-.healthy .text{
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;        
+.healthy{
   text-align: center;
-  top: 1530px;; /* Adjust this value to move the positioned div up and down */
-  font-family: Arial,sans-serif;
-  color: navy;
-  width: 60%;
+  padding-top: 25px;
+  color: #DB4437;
+}
+.healthy-img{
+  margin-top: 10px;
+  height: 300px;
+  width:1300px;
+  object-fit:fill;
   box-shadow: 0 0 10px 0 black;
 }
 .fa{
@@ -319,55 +342,62 @@ background-color: #ddd;
   box-shadow: 5px 10px 10px 1px #aaaaaa;
 }
 /*footer start */
-.footer{
+.footer {
   margin-top: 1500px;
   padding: 20px;
   background: #272727;
   color: white;
   text-align: center;
 }
-.footer .col{
+
+.footer .col {
   width: 250px;
   height: 300px;
   margin: 20px;
   margin-left: 50px;
   font-size: 18px;
-  display:block;
-  float:left;
+  display: block;
+  float: left;
   background-color: none;
   color: grey;
-  
+
 }
-.footer .col h1{
+
+.footer .col h1 {
   text-align: center;
   color: black;
   font-size: 18px;
   font-family: cursive;
 }
-.footer .col .row{
+
+.footer .col .row {
   margin: 0;
   padding: 15px;
   text-align: center;
   display: block;
 }
 
-.footer .col .row a{
-  
+.footer .col .row a {
+
   text-align: center;
   padding: 5px 5px 10px 5px;
   display: block;
 }
+
 .clearfix:after {
-  content:"";
-  display:block;
-  clear:left;
+  content: "";
+  display: block;
+  clear: left;
 }
+
 .footer .col .row .icon1 a {
-  display:inline-block;
+  display: inline-block;
 }
-span{
+
+span {
   color: dimgrey;
 }
+
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }

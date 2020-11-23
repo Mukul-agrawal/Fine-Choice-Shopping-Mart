@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel='stylesheet' type="text/css" href="customelogin.css">
     </head>
-    <?php include(TEMPLATE_FRONT . DS . "headers.php") ?>
+    <?php include(TEMPLATE_FRONT . DS . "header.php") ?>
 
 
     <style>

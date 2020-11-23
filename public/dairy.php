@@ -16,7 +16,7 @@ Fine-Choice-Shopping-Mart
 </head> 
 <body>
 
-<?php include(TEMPLATE_FRONT . DS . "headers.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "header.php") ?>
 
 <h1 style="color:brown;">Dairy-Products</h1>
 <?php

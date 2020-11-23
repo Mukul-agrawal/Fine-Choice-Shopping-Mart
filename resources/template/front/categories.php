@@ -4,7 +4,7 @@
         <a href="bread.html">
             <img class="img-circle" src="home-img-btm.png" alt="Cinque Terre" style="width: 200px;">
         </a>
-        <div class="desc1"></div>
+        <div class="desc1">Bread & Bakery</div>
     </div>
     <div class="gallery1" style="height: auto;">
         <a href="dairy.html">

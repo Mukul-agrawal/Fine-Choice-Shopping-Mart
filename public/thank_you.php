@@ -13,7 +13,7 @@ Fine-Choice-Shopping-Mart
 <link rel='stylesheet' type="text/css" href="customelogin.css">
 </head> 
 <body>   
-<?php include(TEMPLATE_FRONT . DS . "headers.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "header.php") ?>
 <?php
 report();
 ?>
