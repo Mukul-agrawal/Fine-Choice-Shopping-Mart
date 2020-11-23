@@ -297,7 +297,7 @@
     </div>
 
 
-    <div style="width: 100%; margin-top: 10px; margin-bottom: 10px;">
+    <div style="width: 100%; margin-top: 450px; margin-bottom: 10px;">
         <div style="float: left; width: 50%;">
             <img src="marketing-to-attract-grocery-stores__large.jpg" width="640px" height="350px" />
         </div>
@@ -332,7 +332,7 @@
                     Supporting small business
                     <br>Out For Delivery<br>
                     Working at Home town grocers
-                    <a href="aboutus.html">Read More</a>
+                    <a href="aboutus.php">Read More</a>
                 </p>
             </div>
         </div>
