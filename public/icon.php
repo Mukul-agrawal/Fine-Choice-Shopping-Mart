@@ -80,11 +80,28 @@ button {
   padding-right: 30px;
   padding-top: 10px;
 }
+.Goback{
+	background-color: #4CAF50;
+	border:none;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	margin:4px 2px;
+	cursor:pointer;
+}
+.Goback:hover{
+  text-decoration:none;
+  color:white;
+}
 
 	</style>
 </head>
 
 <body>
+<a href="index.php" class="Goback">Back to home page</a>
   <div class="wrap">
   <div class="model">
   <h1 style="text-align: center; font-size: 28px; font-family: sans-serif; padding-bottom: 10px;">Login Here</h1>
